@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\ImGuiFileBrowser.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\ImGuizmo\GraphEditor.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\ImGuizmo\ImCurveEdit.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\ImGuizmo\ImGradient.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\ImGuizmo\ImGuizmo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\ImGuizmo\ImSequencer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui_demo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui_impl_glfw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui_impl_opengl3.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui_tables.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\Imterm\terminal_commands.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\xcore\src\xcore.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\xcore\src\xcore_profiler_1.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\xcore\src\xcore_profiler_2.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Details\paperback_camera.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Camera\Camera.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Dialogue\DialogueManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Font\Font.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Mesh\MeshBuilder.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Mesh\Model.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Nui\NUILoader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Renderer\Renderer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\RenderResource\RenderResourceLoader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\RenderResource\RenderResourceManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Shader\ShaderBuilder.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Shader\ShaderProgram.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Texture\TextureLoader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="paperback_pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\dependencies\dearImGui\IconsFontAwesome5.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\imconfig.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\imgui.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuiFileBrowser.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuizmo\GraphEditor.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuizmo\ImCurveEdit.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuizmo\ImGradient.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuizmo\ImGuizmo.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuizmo\ImSequencer.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuizmo\ImZoomSlider.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\imgui_impl_glfw.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\imgui_internal.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\imstb_rectpack.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\imstb_textedit.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\imstb_truetype.h" />
+    <ClInclude Include="..\..\dependencies\dearImGui\Imterm\misc.hpp" />
+    <ClInclude Include="..\..\dependencies\dearImGui\Imterm\terminal.hpp" />
+    <ClInclude Include="..\..\dependencies\dearImGui\Imterm\terminal_commands.hpp" />
+    <ClInclude Include="..\..\dependencies\dearImGui\Imterm\terminal_helpers.hpp" />
+    <ClInclude Include="..\..\dependencies\dearImGui\Imterm\utils.hpp" />
+    <ClInclude Include="..\..\dependencies\xcore\src\xcore.h" />
+    <ClInclude Include="..\..\src\Components\Reflect.h" />
+    <ClInclude Include="..\..\src\Details\paperback_archetype_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_archetype_mgr_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_bitset_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_clock_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_component_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_component_mgr_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_coordinator_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_cppscript_mgr_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_event_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_event_mgr_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_input_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_logger_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_nbitset_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_particle_mgr_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_pool_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_query_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_statemgr_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_system_inline.h" />
+    <ClInclude Include="..\..\src\Details\paperback_system_mgr_inline.h" />
+    <ClInclude Include="..\..\src\Editor\EditorInclude.h" />
+    <ClInclude Include="..\..\src\Editor\EditorLogger.h" />
+    <ClInclude Include="..\..\src\Editor\EditorLogger_Inline.h" />
+    <ClInclude Include="..\..\src\Editor\EditorMath.h" />
+    <ClInclude Include="..\..\src\Editor\EditorPanels.h" />
+    <ClInclude Include="..\..\src\Editor\EditorPanels_inline.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\ArchetypeInspector.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\ArchetypeInspector_Inline.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\AssetBrowser.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\AssetBrowser_Inline.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\ConsoleTerminal.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\ConsoleTerminal_Inline.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\EntityInspector.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\EntityInspector_Inline.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\PropertyInspector.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\PropertyInspector_Inline.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\WindowSettings.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\WindowSettings_Inline.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\Viewport.h" />
+    <ClInclude Include="..\..\src\Editor\Panels\Viewport_Inline.h" />
+    <ClInclude Include="..\..\src\Functionality\Animation\Animation.h" />
+    <ClInclude Include="..\..\src\Functionality\Animation\Bone.h" />
+    <ClInclude Include="..\..\src\Functionality\Camera\Camera.h" />
+    <ClInclude Include="..\..\src\Functionality\Dialogue\DialogueManager.h" />
+    <ClInclude Include="..\..\src\Functionality\Font\Font.h" />
+    <ClInclude Include="..\..\src\Functionality\Mesh\MeshBuilder.h" />
+    <ClInclude Include="..\..\src\Functionality\Mesh\Model.h" />
+    <ClInclude Include="..\..\src\Functionality\Nui\NUILoader.h" />
+    <ClInclude Include="..\..\src\Functionality\Renderer\Renderer.h" />
+    <ClInclude Include="..\..\src\Functionality\RenderResource\RenderResourceLoader.h" />
+    <ClInclude Include="..\..\src\Functionality\RenderResource\RenderResourceManager.h" />
+    <ClInclude Include="..\..\src\Functionality\Shader\ShaderBuilder.h" />
+    <ClInclude Include="..\..\src\Functionality\Shader\ShaderProgram.h" />
+    <ClInclude Include="..\..\src\Functionality\Texture\TextureLoader.h" />
+    <ClInclude Include="..\..\src\Input\Details\paperback_input_action_inline.h" />
+    <ClInclude Include="..\..\src\Input\Details\paperback_input_binding_inline.h" />
+    <ClInclude Include="..\..\src\Input\Devices\paperback_device_includes.h" />
+    <ClInclude Include="..\..\src\Input\Devices\paperback_gamepad.h" />
+    <ClInclude Include="..\..\src\Input\Devices\paperback_keyboard.h" />
+    <ClInclude Include="..\..\src\Input\Devices\paperback_mouse.h" />
+    <ClInclude Include="..\..\src\Input\paperback_input_action.h" />
+    <ClInclude Include="..\..\src\Input\paperback_input_binding.h" />
+    <ClInclude Include="..\..\src\Input\paperback_input_controller.h" />
+    <ClInclude Include="..\..\src\Input\States\paperback_gamepad_state.h" />
+    <ClInclude Include="..\..\src\Input\States\paperback_input_state_includes.h" />
+    <ClInclude Include="..\..\src\Input\States\paperback_keyboard_state.h" />
+    <ClInclude Include="..\..\src\Input\States\paperback_mouse_state.h" />
+    <ClInclude Include="..\..\src\Json\paperback_deserialize.h" />
+    <ClInclude Include="..\..\src\Json\paperback_deserialize_inline.h" />
+    <ClInclude Include="..\..\src\Json\paperback_json.h" />
+    <ClInclude Include="..\..\src\Json\paperback_json_inline.h" />
+    <ClInclude Include="..\..\src\Json\paperback_serialize.h" />
+    <ClInclude Include="..\..\src\Json\paperback_serialize_inline.h" />
+    <ClInclude Include="..\..\src\Math\MathUtils.h" />
+    <ClInclude Include="..\..\src\Math\Math_includes.h" />
+    <ClInclude Include="..\..\src\Math\Mtx4x4.h" />
+    <ClInclude Include="..\..\src\Math\Mtx4x4.hpp" />
+    <ClInclude Include="..\..\src\Math\Spline.h" />
+    <ClInclude Include="..\..\src\Math\Vector3f.h" />
+    <ClInclude Include="..\..\src\Math\Vector3f.hpp" />
+    <ClInclude Include="..\..\src\Math\Vector3fData.h" />
+    <ClInclude Include="..\..\src\Math\Vector4f.h" />
+    <ClInclude Include="..\..\src\Mono.h" />
+    <ClInclude Include="..\..\src\Paperback.h" />
+    <ClInclude Include="..\..\src\paperback_archetype.h" />
+    <ClInclude Include="..\..\src\paperback_archetype_mgr.h" />
+    <ClInclude Include="..\..\src\paperback_bitset.h" />
+    <ClInclude Include="..\..\src\paperback_camera.h" />
+    <ClInclude Include="..\..\src\paperback_clock.h" />
+    <ClInclude Include="..\..\src\paperback_component.h" />
+    <ClInclude Include="..\..\src\paperback_component_mgr.h" />
+    <ClInclude Include="..\..\src\paperback_concepts.h" />
+    <ClInclude Include="..\..\src\paperback_coordinator.h" />
+    <ClInclude Include="..\..\src\paperback_cppscript_mgr.h" />
+    <ClInclude Include="..\..\src\paperback_data_reflections.h" />
+    <ClInclude Include="..\..\src\paperback_event.h" />
+    <ClInclude Include="..\..\src\paperback_event_mgr.h" />
+    <ClInclude Include="..\..\src\paperback_input.h" />
+    <ClInclude Include="..\..\src\paperback_logger.h" />
+    <ClInclude Include="..\..\src\paperback_nbitset.h" />
+    <ClInclude Include="..\..\src\paperback_particle_mgr.h" />
+    <ClInclude Include="..\..\src\paperback_pool.h" />
+    <ClInclude Include="..\..\src\paperback_query.h" />
+    <ClInclude Include="..\..\src\paperback_settings.h" />
+    <ClInclude Include="..\..\src\paperback_statemgr.h" />
+    <ClInclude Include="..\..\src\paperback_system.h" />
+    <ClInclude Include="..\..\src\paperback_system_mgr.h" />
+    <ClInclude Include="..\..\src\paperback_types.h" />
+    <ClInclude Include="..\..\src\Physics\geometry.h" />
+    <ClInclude Include="..\..\src\Physics\paperback_physics_aabbtree.h" />
+    <ClInclude Include="..\..\src\Physics\paperback_physics_aabbtree_inline.h" />
+    <ClInclude Include="..\..\src\Physics\paperback_physics_node.h" />
+    <ClInclude Include="..\..\src\Physics\PhysicsMaterial.h" />
+    <ClInclude Include="..\..\src\Physics\Physics_includes.h" />
+    <ClInclude Include="..\..\src\Physics\ResolveCollision.h" />
+    <ClInclude Include="..\..\src\Scripts\IScripts.h" />
+    <ClInclude Include="..\..\src\Scripts\MonoInternal.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_AABB.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_AbilityCollectible.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Animator.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Application.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_BoundingBox.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Camera.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_CameraTools.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Child.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_CollisionLayer.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Debug.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_DialogueCollider.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_DialogueText.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Elevator.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Freezable.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Inputs.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Mass.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Mesh.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Name.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Offset.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Parent.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_ParticleEmitter.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_PathFollower.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Player.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_PlayerController.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Pushable.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Raycast.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Rigidbody.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Rigidforce.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Rotation.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Scale.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Sound.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Sphere.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Tag.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Text.h" />
+    <ClInclude Include="..\..\src\Scripts\Scripts_Transform.h" />
+    <ClInclude Include="..\..\src\Settings\PropertyConfig.h" />
+    <ClInclude Include="..\..\src\Settings\xcore_user_settings.h" />
+    <ClInclude Include="..\..\src\Shapes\Shapes_includes.h" />
+    <ClInclude Include="..\Sandbox\InputBindings\binding_includes.h" />
+    <ClInclude Include="paperback_pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\dependencies\dearImGui\Imterm\terminal.tpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{dff970d7-f444-4b6f-8e8b-41d4680fd616}</ProjectGuid>
+    <RootNamespace>ExampleProjectvs2019</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);../../src/Settings;../Sandbox;$(ProjectDir)Dependencies\mono\include\</IncludePath>
+    <LibraryPath>$(ProjectDir)\..\..\dependencies\soil\lib;$(ProjectDir)\..\..\dependencies\glfw\lib;$(ProjectDir)\..\..\dependencies\glew\lib;$(ProjectDir)\..\..\dependencies\assimp\lib;$(ProjectDir)\..\..\dependencies\fmod\studio\lib\x64;$(ProjectDir)\..\..\dependencies\fmod\core\lib\x64;$(ProjectDir)Dependencies\mono\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>../../dependencies/dearImGui;$(VC_IncludePath);$(WindowsSDK_IncludePath);../../src/Settings</IncludePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);../../src/Settings;../Sandbox;$(ProjectDir)Dependencies\mono\include\</IncludePath>
+    <LibraryPath>$(ProjectDir)\..\..\dependencies\soil\lib;$(ProjectDir)\..\..\dependencies\glfw\lib;$(ProjectDir)\..\..\dependencies\glew\lib;$(ProjectDir)\..\..\dependencies\assimp\lib;$(ProjectDir)\..\..\dependencies\fmod\studio\lib\x64;$(ProjectDir)\..\..\dependencies\fmod\core\lib\x64;$(ProjectDir)/../../dependencies/xcore/dependencies/zstd/build/VS2010/libzstd/bin/x64_Release/;$(ProjectDir)Dependencies\mono\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;PAPERBACK_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../../dependencies/dearImGui;../../dependencies/rttr/include;../../dependencies;../../src;../../dependencies/rapidjson;../../dependencies/spdlog/include;$(ProjectDir);Dependencies/mono/include</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>paperback_pch.h</PrecompiledHeaderFile>
+      <ProgramDataBaseFileName>$(OutDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../dependencies/rttr/lib;../../dependencies/xcore/dependencies/zstd/build/VS2010/bin/x64_Debug;../../dependencies/glut/x64/Debug;../../dependencies/xcore;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>librttr_core_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../dependencies/rttr/lib;../../dependencies/xcore/dependencies/zstd/build/VS2010/bin/x64_Debug;../../dependencies/glut/x64/Debug;../../dependencies/xcore</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mono-2.0-sgen.lib;fmodL_vc.lib;fmodstudioL_vc.lib;assimp-vc142-mtd.lib;glew32.lib;glfw3.lib;opengl32.lib;soil2.lib;librttr_core_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)..\Sandbox\Dependencies\mono\bin\mono-2.0-sgen.dll" "$(TargetDir)" /y
+xcopy "$(ProjectDir)..\Sandbox\Dependencies\mono\lib\mono\4.5\mscorlib.dll" "$(TargetDir)Dependencies\mono\lib\mono\4.5\" /y /i /s
+xcopy "$(ProjectDir)..\Sandbox\Dependencies\Scriptlib.dll" "$(TargetDir)Dependencies\" /y /i /s
+xcopy /y /d "$(ProjectDir)\..\..\dependencies\fmod\studio\lib\x64\fmodstudioL.dll" "$(OutDir)"
+xcopy /y /d "$(ProjectDir)\..\..\dependencies\fmod\core\lib\x64\fmodL.dll" "$(OutDir)"
+xcopy /y "$(ProjectDir)\..\..\dependencies\assimp\lib\assimp-vc142-mtd.dll" "$(OutDir)"
+xcopy /y "$(ProjectDir)\..\..\dependencies\glew\lib\glew32.dll" "$(OutDir)"
+xcopy /y /i "$(ProjectDir)..\Sandbox\Dependencies\mono\lib\mono-2.0-sgen.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;PAPERBACK_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>../../dependencies/dearImGui;../../dependencies/rttr/include;../../dependencies;../../src;../../dependencies/rapidjson;../../dependencies/spdlog/include;Dependencies/mono/include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>paperback_pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../dependencies/rttr/lib;../../dependencies/glut/x64/Release;../../dependencies/xcore</AdditionalLibraryDirectories>
+      <AdditionalDependencies>librttr_core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../dependencies/glut/x64/Release;../../dependencies/xcore;../../dependencies/rttr/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mono-2.0-sgen.lib;fmod_vc.lib;fmodstudio_vc.lib;assimp-vc142-mtd.lib;glew32.lib;glfw3.lib;opengl32.lib;soil2.lib;librttr_core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)..\Sandbox\Dependencies\mono\bin\mono-2.0-sgen.dll" "$(TargetDir)" /y
+xcopy "$(ProjectDir)..\Sandbox\Dependencies\mono\lib\mono\4.5\mscorlib.dll" "$(TargetDir)Dependencies\mono\lib\mono\4.5\" /y /i /s
+xcopy "$(ProjectDir)..\Sandbox\Dependencies\Scriptlib.dll" "$(TargetDir)Dependencies\" /y /i /s
+xcopy /y /d "$(ProjectDir)\..\..\dependencies\fmod\core\lib\x64\fmod.dll" "$(OutDir)"
+xcopy /y /d "$(ProjectDir)\..\..\dependencies\fmod\studio\lib\x64\fmodstudio.dll" "$(OutDir)"
+xcopy /y "$(ProjectDir)\..\..\dependencies\assimp\lib\assimp-vc142-mtd.dll" "$(OutDir)"
+xcopy /y "$(ProjectDir)\..\..\dependencies\glew\lib\glew32.dll" "$(OutDir)"
+xcopy /y /i "$(ProjectDir)..\Sandbox\Dependencies\mono\lib\mono-2.0-sgen.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

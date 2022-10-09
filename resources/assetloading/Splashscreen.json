@@ -1,0 +1,1712 @@
+{
+    "Entities": [
+        {
+            "Archetype Manager": {
+                "EntityHead": 25
+            }
+        },
+        {
+            "HDBbase": [
+                {
+                    "Guid": [
+                        0,
+                        9604788041699812520,
+                        5691439207370049121,
+                        14486341741652966143,
+                        17008353085049151909,
+                        15172211932757996706,
+                        16415915133639986106
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 3
+                    },
+                    "Mesh": {
+                        "Model": "Splashscreen",
+                        "Texture": "",
+                        "Shadow Bias": 1,
+                        "Cast Shadow": true,
+                        "Active": true
+                    },
+                    "Scale": {
+                        "Scale": {
+                            "x": -0.05000000074505806,
+                            "y": 0.15000000596046449,
+                            "z": 0.10000000149011612
+                        }
+                    },
+                    "Rotation": {
+                        "Rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 44.369972229003909,
+                            "y": 3.0,
+                            "z": 0.0
+                        }
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [
+                            9604788041699812520,
+                            5691439207370049121,
+                            17008353085049151909
+                        ],
+                        "Prefab GID": 6
+                    },
+                    "Name": {
+                        "Name": "Panel"
+                    }
+                },
+                {
+                    "Entity": {
+                        "Global Index": 20
+                    },
+                    "Mesh": {
+                        "Model": "Splashscreen",
+                        "Texture": "",
+                        "Shadow Bias": 1,
+                        "Cast Shadow": true,
+                        "Active": true
+                    },
+                    "Scale": {
+                        "Scale": {
+                            "x": 0.30000001192092898,
+                            "y": 0.296999990940094,
+                            "z": 0.10000000149011612
+                        }
+                    },
+                    "Rotation": {
+                        "Rotation": {
+                            "x": 0.0,
+                            "y": 0.10000000149011612,
+                            "z": 0.0
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 41.579185485839847,
+                            "y": 14.550690650939942,
+                            "z": 16.859834671020509
+                        }
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [
+                            9604788041699812520,
+                            5691439207370049121,
+                            16415915133639986106,
+                            17008353085049151909,
+                            14486341741652966143
+                        ],
+                        "Prefab GID": 6
+                    },
+                    "Name": {
+                        "Name": "Panel B"
+                    }
+                },
+                {
+                    "Entity": {
+                        "Global Index": 22
+                    },
+                    "Mesh": {
+                        "Model": "EndOfGameCutscene",
+                        "Texture": "",
+                        "Shadow Bias": 1,
+                        "Cast Shadow": true,
+                        "Active": true
+                    },
+                    "Scale": {
+                        "Scale": {
+                            "x": 0.10000000149011612,
+                            "y": 0.30000001192092898,
+                            "z": 0.10000000149011612
+                        }
+                    },
+                    "Rotation": {
+                        "Rotation": {
+                            "x": 0.0,
+                            "y": 90.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 54.79228973388672,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [
+                            14486341741652966143,
+                            5691439207370049121
+                        ],
+                        "Prefab GID": 6
+                    },
+                    "Name": {
+                        "Name": "Panel"
+                    }
+                },
+                {
+                    "Entity": {
+                        "Global Index": 23
+                    },
+                    "Mesh": {
+                        "Model": "EndOfGameCutscene",
+                        "Texture": "",
+                        "Shadow Bias": 1,
+                        "Cast Shadow": true,
+                        "Active": true
+                    },
+                    "Scale": {
+                        "Scale": {
+                            "x": 0.09999797493219376,
+                            "y": 0.10000000149011612,
+                            "z": 0.10000000149011612
+                        }
+                    },
+                    "Rotation": {
+                        "Rotation": {
+                            "x": 90.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 41.224876403808597,
+                            "y": 37.797019958496097,
+                            "z": 0.0000016521594261575956
+                        }
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [
+                            14486341741652966143
+                        ],
+                        "Prefab GID": 6
+                    },
+                    "Name": {
+                        "Name": "Panel"
+                    }
+                }
+            ]
+        },
+        {
+            "HDBbase": [
+                {
+                    "Guid": [
+                        0,
+                        9604788041699812520,
+                        5691439207370049121,
+                        10055872472107209861,
+                        14486341741652966143,
+                        17008353085049151909,
+                        16415915133639986106
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 0
+                    },
+                    "Mesh": {
+                        "Model": "NationalStadium",
+                        "Texture": "NationalStadium_Normal.dds",
+                        "Shadow Bias": 1,
+                        "Cast Shadow": true,
+                        "Active": true
+                    },
+                    "Scale": {
+                        "Scale": {
+                            "x": 0.0020000007934868337,
+                            "y": 0.0020000007934868337,
+                            "z": 0.0020000007934868337
+                        }
+                    },
+                    "Prefab": {
+                        "Prefab Instances GID": []
+                    },
+                    "Rotation": {
+                        "Rotation": {
+                            "x": 63.89583969116211,
+                            "y": 24.16985511779785,
+                            "z": 63.89583969116211
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": -3.760828733444214,
+                            "y": -6.2400007247924809,
+                            "z": -15.919798851013184
+                        }
+                    },
+                    "Name": {
+                        "Name": "Stadium?"
+                    }
+                },
+                {
+                    "Entity": {
+                        "Global Index": 6
+                    },
+                    "Mesh": {
+                        "Model": "EndOfGameCutscene",
+                        "Texture": "",
+                        "Shadow Bias": 1,
+                        "Cast Shadow": true,
+                        "Active": true
+                    },
+                    "Scale": {
+                        "Scale": {
+                            "x": 0.10000000149011612,
+                            "y": 0.10000000149011612,
+                            "z": 0.10000000149011612
+                        }
+                    },
+                    "Prefab": {
+                        "Prefab Instances GID": [
+                            3,
+                            20,
+                            22,
+                            23
+                        ]
+                    },
+                    "Rotation": {
+                        "Rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Name": {
+                        "Name": "Panel"
+                    }
+                }
+            ]
+        },
+        {
+            "HDBbase": [
+                {
+                    "Guid": [
+                        0,
+                        9604788041699812520,
+                        5691439207370049121,
+                        10055872472107209861,
+                        14486341741652966143,
+                        17008353085049151909,
+                        16415915133639986106,
+                        2550044418833058707
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 4
+                    },
+                    "Mesh": {
+                        "Model": "Sandpit",
+                        "Texture": "Sandpit_BaseColour.dds",
+                        "Shadow Bias": 1,
+                        "Cast Shadow": true,
+                        "Active": true
+                    },
+                    "Scale": {
+                        "Scale": {
+                            "x": 0.0020000000949949028,
+                            "y": 0.0020000000949949028,
+                            "z": 0.0020000000949949028
+                        }
+                    },
+                    "Prefab": {
+                        "Prefab Instances GID": [
+                            15,
+                            24
+                        ]
+                    },
+                    "Rotation": {
+                        "Rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": -0.03644561767578125,
+                            "y": -5.570000171661377,
+                            "z": -5.985112190246582
+                        }
+                    },
+                    "Name": {
+                        "Name": "Sample Button"
+                    },
+                    "Button": {
+                        "Button Textures": [
+                            {
+                                "ID": ""
+                            },
+                            {
+                                "ID": ""
+                            },
+                            {
+                                "ID": ""
+                            }
+                        ],
+                        "Button State": 0,
+                        "Layer Grouping": 0,
+                        "Script Guid": 0,
+                        "Active Status": false,
+                        "Button Index": 0
+                    }
+                }
+            ]
+        },
+        {
+            "HDBbase": [
+                {
+                    "Guid": [
+                        0,
+                        9604788041699812520,
+                        5691439207370049121,
+                        14486341741652966143,
+                        17008353085049151909,
+                        15172211932757996706,
+                        16415915133639986106,
+                        2550044418833058707
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 15
+                    },
+                    "Mesh": {
+                        "Model": "Quad",
+                        "Texture": "YesButton_Selected",
+                        "Shadow Bias": 1,
+                        "Cast Shadow": false,
+                        "Active": false
+                    },
+                    "Scale": {
+                        "Scale": {
+                            "x": 0.0020000000949949028,
+                            "y": 0.0020000000949949028,
+                            "z": 0.0020000000949949028
+                        }
+                    },
+                    "Rotation": {
+                        "Rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": -0.03644561767578125,
+                            "y": -5.570000171661377,
+                            "z": -5.985112190246582
+                        }
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [
+                            9604788041699812520,
+                            2550044418833058707,
+                            16415915133639986106
+                        ],
+                        "Prefab GID": 4
+                    },
+                    "Name": {
+                        "Name": "CutsceneMode_Script"
+                    },
+                    "Button": {
+                        "Button Textures": [
+                            {
+                                "ID": ""
+                            },
+                            {
+                                "ID": ""
+                            },
+                            {
+                                "ID": ""
+                            }
+                        ],
+                        "Button State": 0,
+                        "Layer Grouping": 0,
+                        "Script Guid": 6991569882842922372,
+                        "Active Status": true,
+                        "Button Index": 0
+                    }
+                },
+                {
+                    "Entity": {
+                        "Global Index": 24
+                    },
+                    "Mesh": {
+                        "Model": "Quad",
+                        "Texture": "BackButton_Selected",
+                        "Shadow Bias": 1,
+                        "Cast Shadow": false,
+                        "Active": false
+                    },
+                    "Scale": {
+                        "Scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Rotation": {
+                        "Rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": -0.03644561767578125,
+                            "y": -5.570000171661377,
+                            "z": -5.985112190246582
+                        }
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [
+                            2550044418833058707,
+                            9604788041699812520,
+                            16415915133639986106,
+                            5691439207370049121
+                        ],
+                        "Prefab GID": 4
+                    },
+                    "Name": {
+                        "Name": "SplashScreenMde_Script"
+                    },
+                    "Button": {
+                        "Button Textures": [
+                            {
+                                "ID": ""
+                            },
+                            {
+                                "ID": ""
+                            },
+                            {
+                                "ID": ""
+                            }
+                        ],
+                        "Button State": 0,
+                        "Layer Grouping": 0,
+                        "Script Guid": 8220202782425584434,
+                        "Active Status": true,
+                        "Button Index": 0
+                    }
+                }
+            ]
+        },
+        {
+            "Unnamed Archetype": [
+                {
+                    "Guid": [
+                        0,
+                        10055872472107209861,
+                        17008353085049151909,
+                        16415915133639986106,
+                        12511840695917210930
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 12
+                    },
+                    "Prefab": {
+                        "Prefab Instances GID": [
+                            13
+                        ]
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Name": {
+                        "Name": "Path"
+                    },
+                    "Path": {
+                        "Points": [],
+                        "Path ID": 0
+                    }
+                }
+            ]
+        },
+        {
+            "Unnamed Archetype": [
+                {
+                    "Guid": [
+                        0,
+                        17008353085049151909,
+                        15172211932757996706,
+                        16415915133639986106,
+                        12511840695917210930
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 13
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 44.117950439453128,
+                            "y": 3.0,
+                            "z": 5.868892669677734
+                        }
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [
+                            17008353085049151909
+                        ],
+                        "Prefab GID": 12
+                    },
+                    "Name": {
+                        "Name": "Path"
+                    },
+                    "Path": {
+                        "Points": [
+                            {
+                                "x": 0.5,
+                                "y": 23.0,
+                                "z": 0.0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 23.0,
+                                "z": 0.0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 14.699999809265137,
+                                "z": 0.0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": -0.10000000149011612,
+                                "z": 0.0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": -14.800000190734864,
+                                "z": 0.0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": -22.0,
+                                "z": 0.0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": -22.0,
+                                "z": 0.0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": -22.0,
+                                "z": 0.0
+                            }
+                        ],
+                        "Path ID": 0
+                    }
+                }
+            ]
+        },
+        {
+            "Unnamed Archetype": [
+                {
+                    "Guid": [
+                        0,
+                        14302600151082817442,
+                        10055872472107209861,
+                        17008353085049151909,
+                        16415915133639986106,
+                        9886554869999165490
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 9
+                    },
+                    "Sound": {
+                        "Path": "event:/BGM_Cutscene",
+                        "Sound Event ID": 0,
+                        "3D Sound": false,
+                        "Triggerable": false,
+                        "Trigger": false
+                    },
+                    "Prefab": {
+                        "Prefab Instances GID": [
+                            18
+                        ]
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Name": {
+                        "Name": "BGMObj"
+                    },
+                    "Bulk Sound": {
+                        "Path": "",
+                        "Tags": "",
+                        "Is 3D events": false
+                    }
+                }
+            ]
+        },
+        {
+            "Unnamed Archetype": [
+                {
+                    "Guid": [
+                        0,
+                        14302600151082817442,
+                        17008353085049151909,
+                        15172211932757996706,
+                        16415915133639986106,
+                        9886554869999165490
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 18
+                    },
+                    "Sound": {
+                        "Path": "event:/BGM_Cutscene",
+                        "Sound Event ID": 0,
+                        "3D Sound": false,
+                        "Triggerable": false,
+                        "Trigger": false
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [],
+                        "Prefab GID": 9
+                    },
+                    "Name": {
+                        "Name": "BGMObj"
+                    },
+                    "Bulk Sound": {
+                        "Path": "event:/SFX_Menu_BTN_Clicked,event:/SFX_Menu_BTN_Hover",
+                        "Tags": "ButtonClickSFX,ButtonHoverSFX",
+                        "Is 3D events": false
+                    }
+                }
+            ]
+        },
+        {
+            "Camera": [
+                {
+                    "Guid": [
+                        0,
+                        17008353085049151909,
+                        14351128073332756358,
+                        15172211932757996706,
+                        16415915133639986106
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 8
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "EntityScript": {
+                        "Script ID": []
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [],
+                        "Prefab GID": 2
+                    },
+                    "Name": {
+                        "Name": "CameraScriptEntity"
+                    }
+                }
+            ]
+        },
+        {
+            "Camera": [
+                {
+                    "Guid": [
+                        0,
+                        10055872472107209861,
+                        17008353085049151909,
+                        14351128073332756358,
+                        16415915133639986106
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 2
+                    },
+                    "Prefab": {
+                        "Prefab Instances GID": []
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "EntityScript": {
+                        "Script ID": []
+                    },
+                    "Name": {
+                        "Name": "CameraScript"
+                    }
+                }
+            ]
+        },
+        {
+            "Camera": [
+                {
+                    "Guid": [
+                        0,
+                        10055872472107209861,
+                        17008353085049151909,
+                        16415915133639986106
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 7
+                    },
+                    "Prefab": {
+                        "Prefab Instances GID": []
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Name": {
+                        "Name": "DefaultPrefab_A"
+                    }
+                },
+                {
+                    "Entity": {
+                        "Global Index": 5
+                    },
+                    "Prefab": {
+                        "Prefab Instances GID": []
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Name": {
+                        "Name": "DefaultPrefab_B"
+                    }
+                }
+            ]
+        },
+        {
+            "HDBbase": [
+                {
+                    "Guid": [
+                        0,
+                        9604788041699812520,
+                        5691439207370049121,
+                        10055872472107209861,
+                        14486341741652966143,
+                        8536778051349317767,
+                        17008353085049151909,
+                        5509481706028819786,
+                        3617555656175080491,
+                        16415915133639986106,
+                        223102351977301267,
+                        17639936325783395793,
+                        1871702054972469046,
+                        15966406150673095094,
+                        12184509212156499773
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 11
+                    },
+                    "Mesh": {
+                        "Model": "BagClosedBlue",
+                        "Texture": "",
+                        "Shadow Bias": 1,
+                        "Cast Shadow": true,
+                        "Active": true
+                    },
+                    "Scale": {
+                        "Scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Prefab": {
+                        "Prefab Instances GID": [
+                            14
+                        ]
+                    },
+                    "Rotation": {
+                        "Rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Rigidbody": {
+                        "Acceleration": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Velocity": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "RigidForce": {
+                        "Static Friction": 0.0,
+                        "Dynamic Friction": 0.0,
+                        "Restitution": 0.0,
+                        "Force": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Moment": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Threshold": 0.25,
+                        "Gravity Affected": false,
+                        "Collision Affected": false,
+                        "Gravity Active": false
+                    },
+                    "BoundingBox": {
+                        "Min Point": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Max Point": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Is Collide": false
+                    },
+                    "Name": {
+                        "Name": "Jump Unit"
+                    },
+                    "Path Follower": {
+                        "Path ID": 0,
+                        "Distance": 0.0,
+                        "Travel Speed": 3.0,
+                        "Back and Forth": false,
+                        "Reversed": false,
+                        "Pause Travel": false
+                    },
+                    "Mass": {
+                        "Mass": 0.0,
+                        "Inv Mass": 0.0
+                    },
+                    "Camera": {
+                        "Active": true,
+                        "Camera Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Radius": 1.0,
+                        "Max Radius": 2.0,
+                        "Min Radius": 2.0,
+                        "Zoom Rate": 1.0,
+                        "Theta": 90.0,
+                        "Azimuth": 0.0,
+                        "Min Theta": 55.0,
+                        "Max Theta": 95.0
+                    },
+                    "Player Controller": {
+                        "Device Guid": [],
+                        "Movement Force": 0.0,
+                        "Jump Force": 0.0,
+                        "Camera Rotation Speed": 0.0,
+                        "Camera Radius": 0.0,
+                        "Player Active Status": false,
+                        "Player On Ground Status": true,
+                        "Player FPS Status": false,
+                        "Player Grow Available": false,
+                        "Player Shrink Available": false,
+                        "Player Freeze Available": false,
+                        "Checkpoint ID": -1
+                    },
+                    "Cinematic": {
+                        "Cinematic Infos": [
+                            {
+                                "Hold Time": 1.0,
+                                "Move Speed": 1.0
+                            },
+                            {
+                                "Hold Time": 1.0,
+                                "Move Speed": 1.0
+                            },
+                            {
+                                "Hold Time": 1.0,
+                                "Move Speed": 1.0
+                            }
+                        ],
+                        "Index": 0,
+                        "On Hold": false,
+                        "Timer": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "HDBbase": [
+                {
+                    "Guid": [
+                        0,
+                        9604788041699812520,
+                        5691439207370049121,
+                        14486341741652966143,
+                        8536778051349317767,
+                        17008353085049151909,
+                        5509481706028819786,
+                        3617555656175080491,
+                        15172211932757996706,
+                        16415915133639986106,
+                        223102351977301267,
+                        17639936325783395793,
+                        1871702054972469046,
+                        15966406150673095094,
+                        12184509212156499773
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 14
+                    },
+                    "Mesh": {
+                        "Model": "BagClosedBlue",
+                        "Texture": "",
+                        "Shadow Bias": 1,
+                        "Cast Shadow": true,
+                        "Active": true
+                    },
+                    "Scale": {
+                        "Scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Rotation": {
+                        "Rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Rigidbody": {
+                        "Acceleration": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Velocity": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "RigidForce": {
+                        "Static Friction": 0.0,
+                        "Dynamic Friction": 0.0,
+                        "Restitution": 0.0,
+                        "Force": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Moment": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Threshold": 0.25,
+                        "Gravity Affected": false,
+                        "Collision Affected": true,
+                        "Gravity Active": false
+                    },
+                    "BoundingBox": {
+                        "Min Point": {
+                            "x": -0.10000000149011612,
+                            "y": -0.10000000149011612,
+                            "z": -0.10000000149011612
+                        },
+                        "Max Point": {
+                            "x": 0.10000000149011612,
+                            "y": 0.10000000149011612,
+                            "z": 0.10000000149011612
+                        },
+                        "Is Collide": false
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [
+                            5691439207370049121,
+                            3617555656175080491,
+                            5509481706028819786
+                        ],
+                        "Prefab GID": 11
+                    },
+                    "Name": {
+                        "Name": "Jump Unit"
+                    },
+                    "Path Follower": {
+                        "Path ID": 0,
+                        "Distance": 0.0,
+                        "Travel Speed": 3.0,
+                        "Back and Forth": false,
+                        "Reversed": false,
+                        "Pause Travel": false
+                    },
+                    "Mass": {
+                        "Mass": 0.0,
+                        "Inv Mass": 0.0
+                    },
+                    "Camera": {
+                        "Active": true,
+                        "Camera Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Radius": 1.0,
+                        "Max Radius": 2.0,
+                        "Min Radius": 2.0,
+                        "Zoom Rate": 1.0,
+                        "Theta": 90.0,
+                        "Azimuth": 0.0,
+                        "Min Theta": 55.0,
+                        "Max Theta": 95.0
+                    },
+                    "Player Controller": {
+                        "Device Guid": [],
+                        "Movement Force": 0.0,
+                        "Jump Force": 0.0,
+                        "Camera Rotation Speed": 0.0,
+                        "Camera Radius": 0.0,
+                        "Player Active Status": false,
+                        "Player On Ground Status": true,
+                        "Player FPS Status": false,
+                        "Player Grow Available": false,
+                        "Player Shrink Available": false,
+                        "Player Freeze Available": false,
+                        "Checkpoint ID": -1
+                    },
+                    "Cinematic": {
+                        "Cinematic Infos": [
+                            {
+                                "Hold Time": 0.009999999776482582,
+                                "Move Speed": 1.0
+                            },
+                            {
+                                "Hold Time": 3.0,
+                                "Move Speed": 7.5
+                            },
+                            {
+                                "Hold Time": 3.0,
+                                "Move Speed": 7.0
+                            },
+                            {
+                                "Hold Time": 3.0,
+                                "Move Speed": 7.0
+                            },
+                            {
+                                "Hold Time": 0.009999999776482582,
+                                "Move Speed": 10.0
+                            },
+                            {
+                                "Hold Time": 0.009999999776482582,
+                                "Move Speed": 10.0
+                            },
+                            {
+                                "Hold Time": 0.009999999776482582,
+                                "Move Speed": 10.0
+                            }
+                        ],
+                        "Index": 0,
+                        "On Hold": false,
+                        "Timer": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "Camera": [
+                {
+                    "Guid": [
+                        0,
+                        8536778051349317767,
+                        17008353085049151909,
+                        5509481706028819786,
+                        14351128073332756358,
+                        3617555656175080491,
+                        15172211932757996706,
+                        16415915133639986106,
+                        17639936325783395793,
+                        11993994361337810638
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 17
+                    },
+                    "Rigidbody": {
+                        "Acceleration": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Velocity": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 44.607276916503909,
+                            "y": -19.02936363220215,
+                            "z": 5.883589267730713
+                        }
+                    },
+                    "RigidForce": {
+                        "Static Friction": 0.0,
+                        "Dynamic Friction": 0.0,
+                        "Restitution": 0.0,
+                        "Force": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Moment": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Threshold": 0.25,
+                        "Gravity Affected": false,
+                        "Collision Affected": true,
+                        "Gravity Active": false
+                    },
+                    "EntityScript": {
+                        "Script ID": [
+                            {
+                                "ID": "SplashScreenCollider"
+                            }
+                        ]
+                    },
+                    "BoundingBox": {
+                        "Min Point": {
+                            "x": -0.10000000149011612,
+                            "y": -0.10000000149011612,
+                            "z": -0.10000000149011612
+                        },
+                        "Max Point": {
+                            "x": 0.10000000149011612,
+                            "y": 0.10000000149011612,
+                            "z": 0.10000000149011612
+                        },
+                        "Is Collide": false
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [
+                            17008353085049151909,
+                            3617555656175080491,
+                            5509481706028819786
+                        ],
+                        "Prefab GID": 16
+                    },
+                    "Name": {
+                        "Name": "Win Collider"
+                    },
+                    "Mass": {
+                        "Mass": 0.0,
+                        "Inv Mass": 0.0
+                    },
+                    "": {}
+                }
+            ]
+        },
+        {
+            "Camera": [
+                {
+                    "Guid": [
+                        0,
+                        10055872472107209861,
+                        8536778051349317767,
+                        17008353085049151909,
+                        5509481706028819786,
+                        14351128073332756358,
+                        3617555656175080491,
+                        16415915133639986106,
+                        17639936325783395793,
+                        11993994361337810638
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 16
+                    },
+                    "Prefab": {
+                        "Prefab Instances GID": [
+                            17
+                        ]
+                    },
+                    "Rigidbody": {
+                        "Acceleration": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Velocity": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "RigidForce": {
+                        "Static Friction": 0.0,
+                        "Dynamic Friction": 0.0,
+                        "Restitution": 0.0,
+                        "Force": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Moment": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Threshold": 0.25,
+                        "Gravity Affected": true,
+                        "Collision Affected": false,
+                        "Gravity Active": false
+                    },
+                    "EntityScript": {
+                        "Script ID": []
+                    },
+                    "BoundingBox": {
+                        "Min Point": {
+                            "x": -1.0,
+                            "y": -1.0,
+                            "z": -1.0
+                        },
+                        "Max Point": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Is Collide": false
+                    },
+                    "Name": {
+                        "Name": "Win Collider"
+                    },
+                    "Mass": {
+                        "Mass": 0.0,
+                        "Inv Mass": 0.0
+                    },
+                    "": {}
+                }
+            ]
+        },
+        {
+            "Camera": [
+                {
+                    "Guid": [
+                        0,
+                        10055872472107209861,
+                        17008353085049151909,
+                        16415915133639986106,
+                        12326225187096344837
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 19
+                    },
+                    "Prefab": {
+                        "Prefab Instances GID": [
+                            10,
+                            1,
+                            21
+                        ]
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    "Name": {
+                        "Name": "Light"
+                    },
+                    "Light": {
+                        "Light Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Ambient": {
+                            "x": 100.0,
+                            "y": 100.0,
+                            "z": 100.0
+                        },
+                        "Diffuse": {
+                            "x": 100.0,
+                            "y": 100.0,
+                            "z": 100.0
+                        },
+                        "Specular": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "Camera": [
+                {
+                    "Guid": [
+                        0,
+                        17008353085049151909,
+                        15172211932757996706,
+                        16415915133639986106,
+                        12326225187096344837
+                    ]
+                },
+                {
+                    "Entity": {
+                        "Global Index": 10
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 34.20000076293945
+                        }
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [
+                            17008353085049151909,
+                            16415915133639986106,
+                            12326225187096344837
+                        ],
+                        "Prefab GID": 19
+                    },
+                    "Name": {
+                        "Name": "Light Fmod"
+                    },
+                    "Light": {
+                        "Light Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Ambient": {
+                            "x": 100.0,
+                            "y": 100.0,
+                            "z": 100.0
+                        },
+                        "Diffuse": {
+                            "x": 100.0,
+                            "y": 100.0,
+                            "z": 100.0
+                        },
+                        "Specular": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Entity": {
+                        "Global Index": 1
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": 8.5,
+                            "z": -11.0
+                        }
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [
+                            17008353085049151909,
+                            16415915133639986106,
+                            12326225187096344837
+                        ],
+                        "Prefab GID": 19
+                    },
+                    "Name": {
+                        "Name": "Light Digipen"
+                    },
+                    "Light": {
+                        "Light Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Ambient": {
+                            "x": 200.0,
+                            "y": 200.0,
+                            "z": 200.0
+                        },
+                        "Diffuse": {
+                            "x": 100.0,
+                            "y": 100.0,
+                            "z": 100.0
+                        },
+                        "Specular": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Entity": {
+                        "Global Index": 21
+                    },
+                    "Transform": {
+                        "Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Position": {
+                            "x": 0.0,
+                            "y": -11.399999618530274,
+                            "z": 17.200000762939454
+                        }
+                    },
+                    "ReferencePrefab": {
+                        "Modified Components": [
+                            17008353085049151909,
+                            16415915133639986106,
+                            12326225187096344837
+                        ],
+                        "Prefab GID": 19
+                    },
+                    "Name": {
+                        "Name": "Light Fmod"
+                    },
+                    "Light": {
+                        "Light Offset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Ambient": {
+                            "x": 100.0,
+                            "y": 100.0,
+                            "z": 100.0
+                        },
+                        "Diffuse": {
+                            "x": 100.0,
+                            "y": 100.0,
+                            "z": 100.0
+                        },
+                        "Specular": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

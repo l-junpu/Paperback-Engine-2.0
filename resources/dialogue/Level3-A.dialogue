@@ -1,0 +1,21 @@
+{
+  "AudioFile": "DVO_L3S1_01",
+  "Camera Name": "DC5",
+  "ST": "Wha-?! I can't get out!",
+
+  "AudioFile": "DVO_L3S1_02",
+  "Camera Name": "",
+  "JT": "Oh no! Uhh, there's got to be a way.",
+
+  "AudioFile": "DVO_L3S1_03",
+  "Camera Name": "",
+  "JT": "I'll be back for you 5TR-0! ",
+
+  "AudioFile": "DVO_L3S1_04",
+  "Camera Name": "",
+  "JT": "Just sit tight and try to stay calm!",
+
+  "AudioFile": "DVO_L3S1_05",
+  "Camera Name": "",
+  "ST": "Thanks, but that's easier said than done!"
+}

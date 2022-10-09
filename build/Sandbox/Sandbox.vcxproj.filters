@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{cb30506e-9358-482a-8234-802b54639f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems">
+      <UniqueIdentifier>{b26b001d-b547-4309-ac17-1f1cda9798e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PCH">
+      <UniqueIdentifier>{9ada2549-fcda-4005-ad16-f6321ce55571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Details">
+      <UniqueIdentifier>{235d3acf-4e80-4afe-a768-ce4a1b7c48aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\Details">
+      <UniqueIdentifier>{70242c0a-4523-4be9-85bb-e1b5832ba20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\Details\Update">
+      <UniqueIdentifier>{12c5bded-ce5c-4b1e-bb84-0b5bcf0a62a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\Details\Event">
+      <UniqueIdentifier>{06096dbf-5745-486c-b75f-43abf82640be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Details\Tags">
+      <UniqueIdentifier>{3e613674-9a12-413c-9c6b-c11bd41949f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scripts">
+      <UniqueIdentifier>{59b353a1-8e3b-4cf5-93bd-78c0fd3b2815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scripts\Details">
+      <UniqueIdentifier>{2d0f3efb-98a8-47ed-bdeb-27f69313b5be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Details\Deprecated">
+      <UniqueIdentifier>{4824bb9a-03ac-4ceb-ac20-57cb8a2d16d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sandbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PCH\sandbox_pch.cpp">
+      <Filter>Source Files\PCH</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Components\component_includes.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\system_includes.h">
+      <Filter>Source Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="PCH\sandbox_pch.h">
+      <Filter>Source Files\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\AABB.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Animator.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BoundingBox.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Child.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\EntityScript.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Listener.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Mesh.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Offset.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Parent.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Rigidbody.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\RigidForce.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Rotation.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Scale.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Sound.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Sphere.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Timer.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Transform.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Prefab.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ReferencePrefab.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\CollisionLayer.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Selected.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\CollisionSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\DebugSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\ImguiSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\ParentChildSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\PhysicsSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\RendererSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\ScriptingSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\SoundSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\WindowSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\OnEvent_CollisionSystem.h">
+      <Filter>Source Files\Systems\Details\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Socketed.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\TimerSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Name.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\OnEvent_ParentOrChildDeleted.h">
+      <Filter>Source Files\Systems\Details\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Friendly.h">
+      <Filter>Source Files\Components\Details\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Enemy.h">
+      <Filter>Source Files\Components\Details\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\HealthBar.h">
+      <Filter>Source Files\Components\Details\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Base.h">
+      <Filter>Source Files\Components\Details\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Unit.h">
+      <Filter>Source Files\Components\Details\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\AnimatorSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Path.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\PathSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PathFollower.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Button.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\OnEvent_ReferencePrefabDeleted.h">
+      <Filter>Source Files\Systems\Details\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Text.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\UISystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Card.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Deck.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\scripts_includes.h">
+      <Filter>Source Files\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\CardScript.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Player.h" />
+    <ClInclude Include="Components\Spawner.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\UnitState.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Player.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\UI_Layers.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\LevelSelect_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\How2Play_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Settings_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Credits_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Quit_Button.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\MainMenu_Button.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\QuitWindow_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\QuitCancel_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\PauseEnable_Button_Game.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\PauseCancel_Button_Game.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\QuitCancel_Button_Game.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\QuitWindow_Button_Game.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\ReturnMainMenuCancel_Button_Game.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\ReturnMainMenuWindow_Button_Game.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\StartGame_Button.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Mass.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\OnEvent_PointCaptured.h">
+      <Filter>Source Files\Systems\Details\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\SpawnerDetails.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Icon.h">
+      <Filter>Source Files\Components\Details\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\IconSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="CapturePoint.h">
+      <Filter>Source Files\Components\Details\Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Cost.h">
+      <Filter>Source Files\Components\Details\Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Counter.h">
+      <Filter>Source Files\Components\Details\Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Currency.h">
+      <Filter>Source Files\Components\Details\Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Damage.h">
+      <Filter>Source Files\Components\Details\Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\EnemySpawner.h">
+      <Filter>Source Files\Components\Details\Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FriendlySpawner.h">
+      <Filter>Source Files\Components\Details\Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Health.h">
+      <Filter>Source Files\Components\Details\Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Waypoint.h">
+      <Filter>Source Files\Components\Details\Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\UI.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PlayerController.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\CameraSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Camera.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Slope.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PlayerInteraction.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\MainMenu_Mode.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Pushable.h">
+      <Filter>Source Files\Components\Details\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Game_Mode.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\OnEvent_ResetAnimation.h">
+      <Filter>Source Files\Systems\Details\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\NextLevel_Level1.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Crosshair.h">
+      <Filter>Source Files\Components\Details\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Light.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BulkSound.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\PlayerCameraSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page1How2Play_Next_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page1How2Play_Prev_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page2How2Play_Next_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page2How2Play_Prev_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page3How2Play_Next_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page3How2Play_Prev_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page4How2Play_Next_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page4How2Play_Prev_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page5How2Play_Next_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page5How2Play_Prev_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page6How2Play_Next_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page6How2Play_Prev_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\StartLevel1_Button.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\StartCutscene_Last_Button.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\StartCutscene_Level3_Button.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\StartLevel2_Button.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\StartLevel3_Button.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\NextLevel_Level2.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\NextLevel_Level3.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Elevator.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Cinematic.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\AbilityCollectible.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Particle.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ParticleEmitter.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\ParticleSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\DialogueSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\DialogueText.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\DialogueCollider.h">
+      <Filter>Source Files\Components\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page7How2Play_Next_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Page7How2Play_Prev_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\How2Play_Cancel_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\How2Play_Button_Game.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\How2Play_Cancel_Button_Game.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\RestartLevel_Button.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\RestartLevelCancel_Button_Game.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\RestartLevelWindow_Button_Game.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\RestartCheckpoint_Button.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\RestartCheckpointCancel_Button_Game.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\RestartCheckpointWindow_Button_Game.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Freezable.h">
+      <Filter>Source Files\Components\Details\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\TreeSystem.h">
+      <Filter>Source Files\Systems\Details\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Volume_Increase_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Volume_Decrease_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\MouseSens_Decrease_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\MouseSens_Increase_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Settings_Close_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Gamma_Enable_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Gamma_Disable_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Fullscreen_Disable_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Fullscreen_Enable_Button_MainMenu.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PureCollider.h">
+      <Filter>Source Files\Components\Details\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\SplashScreen_Mode.h">
+      <Filter>Source Files\Scripts\Details</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

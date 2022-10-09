@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\dependencies\xcore\src\xcore.cpp">
+      <Filter>Dependencies\xCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\xcore\src\xcore_profiler_1.cpp">
+      <Filter>Dependencies\xCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\xcore\src\xcore_profiler_2.cpp">
+      <Filter>Dependencies\xCore</Filter>
+    </ClCompile>
+    <ClCompile Include="paperback_pch.cpp">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui.cpp">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui_demo.cpp">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui_draw.cpp">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui_tables.cpp">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui_widgets.cpp">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\ImGuizmo\GraphEditor.cpp">
+      <Filter>Dependencies\dearImGui\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\ImGuizmo\ImCurveEdit.cpp">
+      <Filter>Dependencies\dearImGui\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\ImGuizmo\ImGradient.cpp">
+      <Filter>Dependencies\dearImGui\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\ImGuizmo\ImGuizmo.cpp">
+      <Filter>Dependencies\dearImGui\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\ImGuizmo\ImSequencer.cpp">
+      <Filter>Dependencies\dearImGui\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Details\paperback_camera.cpp">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Mesh\MeshBuilder.cpp">
+      <Filter>Source\Tools\Functionality\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Mesh\Model.cpp">
+      <Filter>Source\Tools\Functionality\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Shader\ShaderBuilder.cpp">
+      <Filter>Source\Tools\Functionality\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Shader\ShaderProgram.cpp">
+      <Filter>Source\Tools\Functionality\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Texture\TextureLoader.cpp">
+      <Filter>Source\Tools\Functionality\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\RenderResource\RenderResourceManager.cpp">
+      <Filter>Source\Tools\Functionality\RenderResource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Renderer\Renderer.cpp">
+      <Filter>Source\Tools\Functionality\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui_impl_glfw.cpp">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\imgui_impl_opengl3.cpp">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Nui\NUILoader.cpp">
+      <Filter>Source\Tools\Functionality\NUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\Imterm\terminal_commands.cpp">
+      <Filter>Dependencies\dearImGui\ImTerm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\dearImGui\ImGuiFileBrowser.cpp">
+      <Filter>Dependencies\dearImGui\ImGuiFileBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Font\Font.cpp">
+      <Filter>Source\Tools\Functionality\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Camera\Camera.cpp">
+      <Filter>Source\Tools\Functionality\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\RenderResource\RenderResourceLoader.cpp">
+      <Filter>Source\Tools\Functionality\RenderResource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Functionality\Dialogue\DialogueManager.cpp">
+      <Filter>Source\Tools\Functionality\Dialogue</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\paperback_bitset.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_clock.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_component.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_coordinator.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_event.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_logger.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_pool.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_query.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_settings.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_system.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_types.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_bitset_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_clock_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_component_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_coordinator_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_event_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_logger_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_pool_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_query_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_system_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Paperback.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Settings\PropertyConfig.h">
+      <Filter>Source\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Settings\xcore_user_settings.h">
+      <Filter>Source\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\xcore\src\xcore.h">
+      <Filter>Dependencies\xCore</Filter>
+    </ClInclude>
+    <ClInclude Include="paperback_pch.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_system_mgr_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_system_mgr.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_component_mgr_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_component_mgr.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\IconsFontAwesome5.h">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\imconfig.h">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\imgui.h">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\imgui_internal.h">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\imstb_rectpack.h">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\imstb_textedit.h">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\imstb_truetype.h">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Components\Reflect.h">
+      <Filter>Source\Tools\Reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuizmo\GraphEditor.h">
+      <Filter>Dependencies\dearImGui\ImGuizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuizmo\ImCurveEdit.h">
+      <Filter>Dependencies\dearImGui\ImGuizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuizmo\ImGradient.h">
+      <Filter>Dependencies\dearImGui\ImGuizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuizmo\ImGuizmo.h">
+      <Filter>Dependencies\dearImGui\ImGuizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuizmo\ImSequencer.h">
+      <Filter>Dependencies\dearImGui\ImGuizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuizmo\ImZoomSlider.h">
+      <Filter>Dependencies\dearImGui\ImGuizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\MathUtils.h">
+      <Filter>Source\Gameplay Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Mtx4x4.h">
+      <Filter>Source\Gameplay Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Mtx4x4.hpp">
+      <Filter>Source\Gameplay Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Vector3f.h">
+      <Filter>Source\Gameplay Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Vector3f.hpp">
+      <Filter>Source\Gameplay Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Vector3fData.h">
+      <Filter>Source\Gameplay Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_camera.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\Mesh\MeshBuilder.h">
+      <Filter>Source\Tools\Functionality\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\Mesh\Model.h">
+      <Filter>Source\Tools\Functionality\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\Shader\ShaderBuilder.h">
+      <Filter>Source\Tools\Functionality\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\Shader\ShaderProgram.h">
+      <Filter>Source\Tools\Functionality\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\Texture\TextureLoader.h">
+      <Filter>Source\Tools\Functionality\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\RenderResource\RenderResourceManager.h">
+      <Filter>Source\Tools\Functionality\RenderResource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\Renderer\Renderer.h">
+      <Filter>Source\Tools\Functionality\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_input.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_input_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\imgui_impl_glfw.h">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\imgui_impl_opengl3.h">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\imgui_impl_opengl3_loader.h">
+      <Filter>Dependencies\dearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\MonoInternal.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_CameraTools.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Inputs.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Math_includes.h">
+      <Filter>Source\Gameplay Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Vector4f.h">
+      <Filter>Source\Gameplay Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics\geometry.h">
+      <Filter>Source\Gameplay Code\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics\Physics_includes.h">
+      <Filter>Source\Gameplay Code\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics\PhysicsMaterial.h">
+      <Filter>Source\Gameplay Code\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shapes\Shapes_includes.h">
+      <Filter>Source\Gameplay Code\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Json\paperback_serialize_inline.h">
+      <Filter>Source\Tools\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Json\paperback_serialize.h">
+      <Filter>Source\Tools\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Json\paperback_deserialize.h">
+      <Filter>Source\Tools\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Json\paperback_deserialize_inline.h">
+      <Filter>Source\Tools\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Json\paperback_json_inline.h">
+      <Filter>Source\Tools\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Json\paperback_json.h">
+      <Filter>Source\Tools\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_archetype_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_archetype_mgr_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_archetype.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_archetype_mgr.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\Animation\Animation.h">
+      <Filter>Source\Tools\Functionality\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\Animation\Bone.h">
+      <Filter>Source\Tools\Functionality\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Mono.h">
+      <Filter>Source\Tools\Mono</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\IScripts.h">
+      <Filter>Source\Tools\Mono</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\Nui\NUILoader.h">
+      <Filter>Source\Tools\Functionality\NUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_data_reflections.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics\ResolveCollision.h">
+      <Filter>Source\Gameplay Code\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Application.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Debug.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\Imterm\misc.hpp">
+      <Filter>Dependencies\dearImGui\ImTerm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\Imterm\terminal.hpp">
+      <Filter>Dependencies\dearImGui\ImTerm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\Imterm\terminal_commands.hpp">
+      <Filter>Dependencies\dearImGui\ImTerm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\Imterm\terminal_helpers.hpp">
+      <Filter>Dependencies\dearImGui\ImTerm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\Imterm\utils.hpp">
+      <Filter>Dependencies\dearImGui\ImTerm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\dearImGui\ImGuiFileBrowser.h">
+      <Filter>Dependencies\dearImGui\ImGuiFileBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\Viewport.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\Viewport_Inline.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\WindowSettings.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\WindowSettings_Inline.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\ConsoleTerminal.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\ConsoleTerminal_Inline.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\EntityInspector.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\EntityInspector_Inline.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\PropertyInspector.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\PropertyInspector_Inline.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\AssetBrowser.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\AssetBrowser_Inline.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\EditorInclude.h">
+      <Filter>Source\Tools\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\EditorLogger.h">
+      <Filter>Source\Tools\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\EditorLogger_Inline.h">
+      <Filter>Source\Tools\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\EditorPanels.h">
+      <Filter>Source\Tools\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\EditorPanels_inline.h">
+      <Filter>Source\Tools\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\ArchetypeInspector.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\Panels\ArchetypeInspector_Inline.h">
+      <Filter>Source\Tools\Editor\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\EditorMath.h">
+      <Filter>Source\Tools\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_concepts.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_event_mgr.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_event_mgr_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_statemgr.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_statemgr_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Spline.h">
+      <Filter>Source\Gameplay Code\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\Font\Font.h">
+      <Filter>Source\Tools\Functionality\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_cppscript_mgr_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_cppscript_mgr.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Transform.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_PathFollower.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_AABB.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_BoundingBox.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Animator.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Mesh.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Offset.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Rotation.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Scale.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_CollisionLayer.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Mass.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Rigidbody.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Rigidforce.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Sphere.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Sound.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Text.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Parent.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Child.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Name.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Player.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_nbitset_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_nbitset.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\paperback_input_controller.h">
+      <Filter>Source\Tools\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\paperback_input_binding.h">
+      <Filter>Source\Tools\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\paperback_input_action.h">
+      <Filter>Source\Tools\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\Details\paperback_input_binding_inline.h">
+      <Filter>Source\Tools\Input\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\Details\paperback_input_action_inline.h">
+      <Filter>Source\Tools\Input\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\States\paperback_input_state_includes.h">
+      <Filter>Source\Tools\Input\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\Devices\paperback_device_includes.h">
+      <Filter>Source\Tools\Input\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\States\paperback_gamepad_state.h">
+      <Filter>Source\Tools\Input\States\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\States\paperback_keyboard_state.h">
+      <Filter>Source\Tools\Input\States\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\States\paperback_mouse_state.h">
+      <Filter>Source\Tools\Input\States\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\Devices\paperback_gamepad.h">
+      <Filter>Source\Tools\Input\Devices\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\Devices\paperback_mouse.h">
+      <Filter>Source\Tools\Input\Devices\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input\Devices\paperback_keyboard.h">
+      <Filter>Source\Tools\Input\Devices\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\Camera\Camera.h">
+      <Filter>Source\Tools\Functionality\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sandbox\InputBindings\binding_includes.h">
+      <Filter>Source\Tools\Input\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Camera.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Raycast.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\RenderResource\RenderResourceLoader.h">
+      <Filter>Source\Tools\Functionality\RenderResource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Elevator.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_PlayerController.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Tag.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Pushable.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics\paperback_physics_aabbtree.h">
+      <Filter>Source\Paperback Engine\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics\paperback_physics_node.h">
+      <Filter>Source\Paperback Engine\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics\paperback_physics_aabbtree_inline.h">
+      <Filter>Source\Paperback Engine\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_AbilityCollectible.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Details\paperback_particle_mgr_inline.h">
+      <Filter>Source\Paperback Engine\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\paperback_particle_mgr.h">
+      <Filter>Source\Paperback Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Functionality\Dialogue\DialogueManager.h">
+      <Filter>Source\Tools\Functionality\Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_DialogueCollider.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_DialogueText.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_ParticleEmitter.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scripts\Scripts_Freezable.h">
+      <Filter>Source\Gameplay Code\Scripts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a1e17279-6fea-45fd-8599-0d901353c1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Paperback Engine">
+      <UniqueIdentifier>{95b49e3c-ce34-4c83-9254-ece3c8b04a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Paperback Engine\Details">
+      <UniqueIdentifier>{9c7373c7-5795-4683-bc13-3ccb0d53052e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools">
+      <UniqueIdentifier>{9168c1d4-2557-4661-8774-3bf712749c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gameplay Code">
+      <UniqueIdentifier>{f051333f-983a-41e4-bba7-36b79aae1832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Settings">
+      <UniqueIdentifier>{ee989d91-93a3-4ecc-9e2d-f82577c24ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{04ff870a-9419-4146-b92d-0bebdcd92813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\xCore">
+      <UniqueIdentifier>{c03e3f9a-be85-4373-a306-b146345600e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\dearImGui">
+      <UniqueIdentifier>{ab5fc4d1-e197-495a-986e-aea405eef5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Json">
+      <UniqueIdentifier>{bb2bbc20-9024-4e81-b173-c9a8188b6a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Reflect">
+      <UniqueIdentifier>{824a889a-c634-4e38-95ec-e8bd32cfb6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\dearImGui\ImGuizmo">
+      <UniqueIdentifier>{cc497d3e-2dee-43e4-8327-01d021cc70c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gameplay Code\Math">
+      <UniqueIdentifier>{f06d46f1-f0b8-4d23-b9bf-0b986eeea40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Functionality">
+      <UniqueIdentifier>{03255925-799a-4a98-8c6d-26191e70d296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Functionality\Mesh">
+      <UniqueIdentifier>{5de86767-52e7-4203-beeb-f233bfdce4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Functionality\Shader">
+      <UniqueIdentifier>{4dde33cf-6de9-4540-a359-19236f36ae06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Functionality\Texture">
+      <UniqueIdentifier>{ef76f5f6-7550-474a-8404-15ec346f1042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Functionality\RenderResource">
+      <UniqueIdentifier>{417fc25d-b05e-47b3-8b3b-f8d5d326cf1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Functionality\Renderer">
+      <UniqueIdentifier>{a66abb8d-86cf-4755-baa0-56dcff7207cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gameplay Code\Scripts">
+      <UniqueIdentifier>{25f1021e-2315-4e11-8e8e-36f3861c37c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gameplay Code\Physics">
+      <UniqueIdentifier>{391dc8d8-84ec-4f48-b0ed-2da71a91b30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gameplay Code\Shapes">
+      <UniqueIdentifier>{e4e83ffd-e481-4298-a6e0-9e9b8d2fa686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Functionality\Animation">
+      <UniqueIdentifier>{2d0e093c-f756-4177-a6da-b7340fb3c0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Mono">
+      <UniqueIdentifier>{03742485-ba67-41f0-86a4-bee8bc21bee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Functionality\NUI">
+      <UniqueIdentifier>{9ceee95b-3532-4cfc-8f8e-3c771e15f5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\dearImGui\ImTerm">
+      <UniqueIdentifier>{764ecc64-6570-49a9-8220-55865e8a3fa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Editor">
+      <UniqueIdentifier>{b145b35e-0a4e-499c-8d87-b7d149c9f5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Editor\Panels">
+      <UniqueIdentifier>{36f4a29e-8481-4bb1-8147-4f50a86aeb13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\dearImGui\ImGuiFileBrowser">
+      <UniqueIdentifier>{55f48a8f-b224-4ef4-a213-118c0cc60494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Functionality\Font">
+      <UniqueIdentifier>{c2e7d3f4-3992-4cbe-a68a-2e7fe25c91ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Input">
+      <UniqueIdentifier>{616342aa-ad8e-4c1d-9159-9e5bcec4db31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Input\Details">
+      <UniqueIdentifier>{2ac374e3-08d4-4766-a2f9-2990e77f4228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Input\Devices">
+      <UniqueIdentifier>{ec813c96-ca1f-4b79-8c81-44849c134d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Input\States">
+      <UniqueIdentifier>{c1970468-e580-4951-9d63-9d503ccffb2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Input\States\Details">
+      <UniqueIdentifier>{916de0db-3955-452c-9911-053a640e71a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Input\Devices\Details">
+      <UniqueIdentifier>{74afabb4-a578-49ed-9c0a-5d64cefd06df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Functionality\Camera">
+      <UniqueIdentifier>{ce00b03a-58d0-4d06-94f2-51075916382c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Paperback Engine\BroadPhase">
+      <UniqueIdentifier>{45d29145-234f-4ff8-9d2f-6a2ad25d28de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Functionality\Dialogue">
+      <UniqueIdentifier>{522337cf-7090-4ed4-a09d-82b07bb22995}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\dependencies\dearImGui\Imterm\terminal.tpp">
+      <Filter>Dependencies\dearImGui\ImTerm</Filter>
+    </None>
+  </ItemGroup>
+</Project>
